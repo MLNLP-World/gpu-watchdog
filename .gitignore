@@ -1,0 +1,25 @@
+# runtime/cache
+cache/*
+!cache/.gitkeep
+
+# python
+**/__pycache__/
+*.pyc
+
+# secrets
+secret/*.json
+secret/**/*.json
+!secret/.gitkeep
+
+# local configs (users copy from *.example)
+config/*.env
+!config/*.env.example
+
+# backups / temp
+_local_backup_*/
+*.bak.*
+*.swp
+.DS_Store
+__MACOSX/
+._*
+config/smtp.env
