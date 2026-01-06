@@ -10,7 +10,7 @@ A tiny GPU usage watcher and email notifier (SMTP or Gmail API), designed for HP
   - Gmail API (recommended when SMTP is blocked; HTTPS 443)
   - SMTP (when available)
 
----
+
 
 
 ## Quickstart
@@ -32,7 +32,7 @@ bash bin/gpu_watch.sh --test-mail
 
 *Tip: To verify SMTP works on your cluster, run `bash bin/gpu_watch.sh --test-mail` and confirm you actually receive the email.*
 
----
+
 
 ## Gmail API setup (recommended)
 
@@ -110,7 +110,7 @@ Test:
 bash bin/gpu_watch.sh --test-mail
 ```
 
----
+
 
 ## SMTP setup (alternative)
 
@@ -132,7 +132,7 @@ Test:
 bash bin/gpu_watch.sh --test-mail
 ```
 
----
+
 
 ## Notes
 
